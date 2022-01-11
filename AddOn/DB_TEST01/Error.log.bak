@@ -1,0 +1,61 @@
+﻿Error=Dahili hata (-7750) oluştu  [131-183] - cTotalDisc-//fldname=TotalDisc
+	20220109 14-43
+	Source = 
+Error=Dahili hata (-7750) oluştu  [131-183] - cTotalDisc-//fldname=TotalDisc
+	20220109 14-56
+	Source = 
+Error=Dahili hata (-7750) oluştu  [131-183] - cTotalDisc-//fldname=TotalDisc
+	20220109 14-59
+	Source = 
+Error=InsertSumm = The parameterized query '(@DocEntry int,@LineNum int,@CardCode varchar(15),@PostedDocEntr' expects the parameter '@PostedMess', which was not supplied.
+Statement(s) could not be prepared. Insert INTO [dbo].[redi_ConsBP_Summ] ([DocEntry],[LineNum],[CardCode],[PostedDocEntry] ,[PostedMess],[PostOption],[PayOnAcc],[PostDPay],[PostDPayMessage],[SelDraft]) Values(@DocEntry,@LineNum,@CardCode,@PostedDocEntry,@PostedMess,@PostOption,@PayOnAcc,@PostDPay,@PostDPayMessage,@SelDraft)
+	20220110 09-33
+	Source =    at Shared.DbUtility.InsertSumm(Int32 docEntry, Int32 linenum, String cardCode, Int32 postedDocEntry, String pmess, String postOption, Double payOnAcc, String selp, Int32 pdDocEntry, String PdMess) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\Shared\DBUtility.cs:line 346
+   at FairviewFinancialCA.PrePayment.Save()
+Error=This SqlTransaction has completed; it is no longer usable.
+	20220110 09-33
+	Source =    at System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at Shared.DbUtility.Close(Boolean h) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\Shared\DBUtility.cs:line 51
+   at FairviewFinancialCA.PrePayment.Save()
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal)
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-54
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-55
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-55
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-55
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-56
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-56
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-56
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-56
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-56
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236
+Error=Unable to cast COM object of type 'System.__ComObject' to interface type 'SAPbouiCOM.PictureBox'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{84DA376E-310C-4D59-A456-43029D0F35A7}' failed due to the following error: No such interface supported (Exception from HRESULT: 0x80004002 (E_NOINTERFACE)).
+	20220110 10-57
+	Source =    at FairviewFinancialCA.PrePayment.grpMatrix_LostFocusAfter(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 1235
+   at FairviewFinancialCA.PrePayment.EventAll(ItemEvent pVal) in C:\Users\celalb\Saved Games\workout\FairviewFinancialWorkflowCA\FairviewFinancialCA\PrePayment.cs:line 2236

@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairviewFinancialWorkflowCA", "FairviewFinancialWorkflowCA\FairviewFinancialWorkflowCA.csproj", "{1308B7F1-F699-4985-9623-DF793281B5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairviewFinancialCA", "FairviewFinancialCA\FairviewFinancialCA.csproj", "{6A1E5312-2ABA-4250-91C7-13FEECEAB359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{D83BC1B9-334F-4149-94DB-3264A80FD00C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|x64.ActiveCfg = Debug|x64
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|x64.Build.0 = Debug|x64
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|x86.ActiveCfg = Debug|x86
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Debug|x86.Build.0 = Debug|x86
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|x64.ActiveCfg = Release|x64
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|x64.Build.0 = Release|x64
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|x86.ActiveCfg = Release|x86
+		{1308B7F1-F699-4985-9623-DF793281B5B2}.Release|x86.Build.0 = Release|x86
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|x64.Build.0 = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|x64.Build.0 = Release|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A1E5312-2ABA-4250-91C7-13FEECEAB359}.Release|x86.Build.0 = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|x64.Build.0 = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D83BC1B9-334F-4149-94DB-3264A80FD00C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC2E507-C742-431B-81A9-9877CF84397D}
+	EndGlobalSection
+EndGlobal

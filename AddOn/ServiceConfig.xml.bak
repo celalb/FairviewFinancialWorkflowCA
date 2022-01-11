@@ -1,0 +1,19 @@
+<IndyDutch>
+  <Database>
+    <Server>192.168.1.8</Server>
+    <License>192.168.1.8:30000</License>
+    <ServerType>MSSQL2016</ServerType>
+    <UID>sa</UID>
+    <PWD>owz8G2Kc82vmS99Q9ZjVAA==</PWD>
+  </Database>
+  <SBO>
+    <CompanyDB>FFBUF</CompanyDB>
+    <UserCode>manager</UserCode>
+    <UserPWD>+nt+XL0Fx1nmS99Q9ZjVAA==</UserPWD>
+  </SBO>
+  <Service>
+    <Interval>10000</Interval>
+    <FileWatcherDirectory>C:\IndyDutch\Temp\FileWatcher</FileWatcherDirectory>
+    <ErrorRecipients>manager</ErrorRecipients>
+  </Service>
+</IndyDutch>
